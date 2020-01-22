@@ -24,6 +24,13 @@
     padding-right: 0.625rem;
 }
 
+.linea-separador-gray {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 2rem;
+}
+
 .fondoPolitica {
     background-color: #D03632;
 }
@@ -748,20 +755,22 @@ footer {
 }
 
 footer h5 {
+    color: rgba(255, 255, 255, 0.5);
     margin-bottom: 2rem;
 }
 
 footer p,
 footer p a {
+    color: rgba(255, 255, 255, 0.5);
     font-size: 0.875rem;
     font-weight: 300;
     margin-bottom: .5rem;
 }
 
-.footerMenu a {
+.footerMenu>a {
+    color: rgba(255, 255, 255, 0.5);
     font-size: 0.875rem;
     font-weight: 300;
-    color: rgba(0, 0, 0, 0.7);
     margin-right: .5rem;
 }
 
